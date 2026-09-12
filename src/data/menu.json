@@ -1,0 +1,30 @@
+{
+  "restaurantName": "The Irish Pub & Grill",
+  "currency": "€",
+  "categories": [
+    { "id": "mains", "name": "Mains" },
+    { "id": "desserts", "name": "Desserts" }
+  ],
+  "dishes": [
+    {
+      "id": "1",
+      "categoryId": "mains",
+      "name": "Traditional Irish Stew",
+      "description": "Ensopado de cordeiro com batatas, cenouras e molho de cerveja escura.",
+      "price": 16.50,
+      "allergens": ["Glúten", "Aipo"],
+      "model3dGlb": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+      "model3dUsdz": "https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
+    },
+    {
+      "id": "2",
+      "categoryId": "mains",
+      "name": "Fish and Chips",
+      "description": "Bacalhau empanado na cerveja com batatas rústicas e molho tártaro.",
+      "price": 15.00,
+      "allergens": ["Glúten", "Peixe", "Ovos"],
+      "model3dGlb": "",
+      "model3dUsdz": ""
+    }
+  ]
+}

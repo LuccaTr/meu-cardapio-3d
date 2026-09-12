@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Oculta a barra de rolagem horizontal mantendo a rolagem ativa */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Oculta a barra de progresso padrão do visualizador 3D */
+model-viewer::part(default-progress-bar) {
+  display: none;
+}
